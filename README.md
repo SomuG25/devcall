@@ -1,73 +1,99 @@
-# devcall
-DevCall is a real-time platform connecting developers with clients for instant video consultations. Developers can showcase expertise, set rates, and manage availability, while clients can book sessions instantly. Features include crypto payments, secure video calls, and real-time notifications. Built with React, TypeScript, and Supabase.
+# DevCall - Instant Developer Video Consultations
 
+A platform connecting developers with clients for instant video consultations with crypto payments.
 
-DevCall - Instant Developer Video Consultation Platform
-A modern platform connecting developers with clients for instant video consultations and technical guidance, built with React, TypeScript, and Supabase.
+## Features
 
-🚀 Features
-For Developers
-Professional profile management
-Set custom hourly rates
-Real-time availability toggling
-Skill and expertise showcase
-Crypto wallet integration
-Booking management dashboard
-Instant video call access
-For Customers
-Browse available developers
-Filter by expertise and skills
-Instant booking system
-Secure crypto payments
-Project details management
-Real-time session tracking
-Video consultation access
-💻 Tech Stack
-Frontend: React, TypeScript, Tailwind CSS
-Backend: Supabase
-Authentication: Supabase Auth
-Database: PostgreSQL (via Supabase)
-Real-time: Supabase Realtime
-Video: Google Meet Integration
-Payments: USDT/Crypto Integration
-UI Components: Lucide React Icons
-🔑 Key Features
-Real-time booking notifications
-Secure authentication system
-Crypto payment validation
-Role-based access control
-Responsive design
-Real-time availability updates
-Session management
-Profile customization
-🛠️ Implementation Highlights
-Type-safe development with TypeScript
-Real-time data synchronization
-Secure payment flow
-Clean and modern UI
-Comprehensive error handling
-Database with row-level security
-Scalable architecture
-🎯 Use Cases
-Technical consultations
-Code reviews
-Architecture discussions
-Debug sessions
-Project guidance
-Technical interviews
-Code pair programming
-Project estimations
-📱 Mobile Responsive
-Fully responsive design that works seamlessly across:
+- 🎥 Instant video calls with developers
+- 💰 Crypto payments (USDT)
+- 👨‍💻 Developer profiles & availability management
+- 📅 Real-time booking system
+- 🔒 Secure authentication
+- 💼 Project management tools
 
-Desktop
-Tablet
-Mobile devices
-🔒 Security Features
-Secure authentication
-Protected API endpoints
-Row-level security
-Secure payment flow
-Role-based permissions
-Data encryption
-Built for the modern web, DevCall provides a seamless platform for technical consultations with instant booking and secure crypto payments. Perfect for developers looking to share their expertise and clients seeking immediate technical guidance.
+## Tech Stack
+
+- React + TypeScript
+- Vite
+- Tailwind CSS
+- Supabase (Auth, Database, Real-time)
+- Lucide React Icons
+
+## Prerequisites
+
+- Node.js 18+
+- npm/yarn
+- Supabase account
+- Google Meet (for video calls)
+
+## Setup Instructions
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/devcall.git
+cd devcall
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Set up environment variables:
+   - Create a `.env` file in the root directory
+   - Add your Supabase credentials:
+```env
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+4. Start the development server:
+```bash
+npm run dev
+```
+
+## Database Setup
+
+1. Create a new Supabase project
+2. Run the migrations from `supabase/migrations` folder
+3. Enable Row Level Security (RLS) policies
+
+## Project Structure
+
+```
+├── src/
+│   ├── components/     # React components
+│   ├── lib/           # Utility functions & Supabase client
+│   ├── pages/         # Page components
+│   └── App.tsx        # Main application component
+├── supabase/
+│   ├── migrations/    # Database migrations
+│   └── functions/     # Edge functions
+```
+
+## Key Features
+
+### For Developers
+- Create professional profiles
+- Set hourly rates
+- Manage availability
+- Handle bookings
+- Receive crypto payments
+
+### For Customers
+- Browse developer profiles
+- Book instant consultations
+- Make secure payments
+- Join video calls
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+MIT License - See LICENSE file for details
