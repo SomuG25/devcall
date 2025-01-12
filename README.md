@@ -4,7 +4,7 @@ A platform connecting developers with clients for instant video consultations wi
 
 Demo Link- 
 Project link -
-DevCall Architecture - https://docs.google.com/document/d/1gBOpvqPK1JjAa-6PKy81f5uoK0NwEWXT/edit?usp=sharing&ouid=118100602998593781151&rtpof=true&sd=true
+DevCall Architecture - https://shorturl.at/Qm2yr
 
 ## Features
 
