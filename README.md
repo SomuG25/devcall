@@ -2,7 +2,7 @@
 
 A platform connecting developers with clients for instant video consultations with crypto payments.
 
-Demo Link- 
+Demo Link- https://shorturl.at/hIiHe
 Project link - https://devcall.netlify.app/
 DevCall Journey - https://shorturl.at/kaDw2
 DevCall Architecture - https://shorturl.at/Qm2yr
